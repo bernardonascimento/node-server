@@ -1,0 +1,29 @@
+{
+  "name": "node-server",
+  "version": "1.0.0",
+  "description": "Servidor Node + MySQL",
+  "main": "bin/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node node_modules/nodemon/bin/nodemon bin/server",
+    "start": "node bin/server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bernardonascimento/node-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bernardonascimento/node-server/issues"
+  },
+  "homepage": "https://github.com/bernardonascimento/node-server#readme",
+  "dependencies": {
+    "debug": "^4.1.1",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  }
+}
